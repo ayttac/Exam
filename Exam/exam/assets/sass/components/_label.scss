@@ -1,0 +1,19 @@
+.form{
+    padding: 200px;
+    background-color: #829dc5;
+  
+    .container{
+        form{
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+
+            input{
+                width: 50%;
+                margin-top: 20px;
+                height: 30px;
+            }
+        }
+    }
+}

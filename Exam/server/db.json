@@ -1,0 +1,67 @@
+{
+  "exam": [
+    {
+      "id": 1,
+      "img_url": "https://preview.colorlib.com/theme/security/img/b2.jpg.webp",
+      "time": "10 JAN 2018",
+      "name": "Addiction When Gambling Becomes A Problem",
+      "text": "inappropriate behavior ipsum dolor sit amet, consectetur.",
+      "like": "15 likes",
+      "comment": "02 Comments"
+    },
+    {
+      "id": 3,
+      "img_url": "https://preview.colorlib.com/theme/security/img/b2.jpg.webp",
+      "time": "10 JAN 2018",
+      "name": "Addiction When Gambling Becomes A Problem",
+      "text": "inappropriate behavior ipsum dolor sit amet, consectetur.",
+      "like": "15 likes",
+      "comment": "02 Comments"
+    },
+    {
+      "id": 4,
+      "img_url": "https://preview.colorlib.com/theme/security/img/b2.jpg.webp",
+      "time": "10 JAN 2018",
+      "name": "Addiction When Gambling Becomes A Problem",
+      "text": "inappropriate behavior ipsum dolor sit amet, consectetur.",
+      "like": "15 likes",
+      "comment": "02 Comments"
+    },
+    {
+      "name": "senuber",
+      "surname": "bxszd",
+      "age": "21",
+      "id": 5
+    },
+    {
+      "time": "25",
+      "name": "aytyac",
+      "text": "salam",
+      "id": 6
+    },
+    {
+      "time": "25",
+      "name": "aytyac",
+      "text": "salam",
+      "id": 7
+    },
+    {
+      "time": "25",
+      "name": "aytyac",
+      "text": "salam",
+      "id": 8
+    },
+    {
+      "time": "25",
+      "name": "aytyac",
+      "text": "salam",
+      "id": 9
+    },
+    {
+      "time": "25",
+      "name": "aytyac",
+      "text": "salam",
+      "id": 10
+    }
+  ]
+}

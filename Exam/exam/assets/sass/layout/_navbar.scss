@@ -1,0 +1,195 @@
+nav {
+    max-width: 1440px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    opacity: 0.9;
+    .container {
+        padding: 20px 0;
+        .register {
+            padding-bottom: 15px;
+            border-bottom: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .icon {
+                ul {
+                    display: flex;
+                    gap: 20px;
+                    li{
+                        a{
+                            i{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .login {
+                display: flex;
+                gap: 20px;
+                font-size: 12px;
+
+                .number {
+                    &:hover {
+                        color: #fab700;
+                    }
+                }
+                .phone{
+                    &:hover {
+                    color:#fab700 ;
+                }
+                }
+                .registerLogin{
+                    &:hover {
+                    color:#fab700 ;
+                }
+                }
+            }
+        }
+
+        .security{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .menu{
+                display: none;
+            }
+            .exit{
+                display: none;
+            }
+            .tittle{
+                display: block;
+                padding: 10px 40px 10px 15px;
+                margin-right: 20px;
+                ul{
+                    display: flex;
+                    gap: 20px;
+                    li{
+                        font-size: 14px;
+                        transition: 300ms;
+                          &:hover{
+                           color: #fab700;
+                        }
+                    }
+                    .pages{
+                        transition: 300ms;
+                        &:hover{
+                           .pagesTitle {
+                            display: block;
+                           }
+                        }
+
+                        .pagesTitle{
+                            font-size: 14px;
+                            display: none;
+                            position: absolute;
+                            z-index: 1;
+                            background-color: #fff;
+                            padding: 5px 35px 15px 10px;
+                            color: #333;
+                            p{
+                                margin-top: 5px;
+                                transition: 300ms;
+                                &:hover{
+                                    color: #fab700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .menuTittle{
+            background-color: #333;
+            display: none;
+            color: #fff;
+            width: 50%;
+            margin-top: 30px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            li{
+                font-size: 14px;
+                transition: 300ms;
+                  &:hover{
+                   color: #fab700;
+                }
+            }
+            .pages{
+                transition: 300ms;
+                &:hover{
+                   .pagesTitle {
+                    display: block;
+                   }
+                }
+
+                .pagesTitle{
+                    font-size: 14px;
+                    display: none;
+                    position: absolute;
+                    z-index: 1;
+                    background-color: #fff;
+                    padding: 5px 35px 15px 10px;
+                    color: #333;
+                    p{
+                        margin-top: 5px;
+                        transition: 300ms;
+                        &:hover{
+                            color: #fab700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+nav {
+    .container {
+        padding: 30px;
+        .register {
+            padding-bottom: 10px;
+
+            .login {
+                display: flex;
+                gap: 15px;
+
+                .number {
+                    display: none;
+                }
+                .phone{
+                    display: block;
+                }
+                
+                }
+            }
+        
+
+        .security{
+            margin-top: 15px;
+            .menu{
+                display: block;
+            }
+            .exit{
+                display: none;
+            }
+            .tittle{
+                display: none;
+            }
+
+        }
+    }
+}
+
+
+}
